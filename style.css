@@ -1,7 +1,6 @@
 /* =============== html smooth scrolling part==================*/
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%;
 }
 
 /* =============== css variable ==================*/
@@ -16,21 +15,21 @@ nav {
 }
 
 .nav-link {
-  margin-left: 2rem;
-  font-size: 2rem;
+  margin-left: 20px;
+  font-size: 20px;
   font-weight: bold;
 }
 
 .nav-link:hover {
   background-color: black;
-  border-radius: 1rem;
+  border-radius: 10px;
   color: white !important;
 }
 
 #heading {
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: bold;
-  box-shadow: 1rem 1rem 0.5rem 0 grey;
+  box-shadow: 10px 10px 5px 0 grey;
 }
 
 #heading:hover {
@@ -72,18 +71,18 @@ a {
 }
 
 .header-text h1 {
-  font-size: 5rem;
+  font-size: 50px;
   font-weight: bold;
   color: #ffeb3b;
 }
 .header-text h2 {
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: bold;
   color: #ffeb3b;
 }
 
 .btn {
-  font-size: 1.8rem;
+  font-size: 18px;
 }
 
 .btn:hover {
@@ -98,30 +97,30 @@ a {
 }
 .ourservice h1 {
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 50px;
   color: var(--secondary-color);
 }
 
 .imgsetting {
-  font-size: 4rem;
+  font-size: 40px;
   background-color: rgb(19, 229, 236);
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  padding-top: 2rem;
+  padding-top: 20px;
 }
 
 .row-setting {
-  margin: 5rem 0;
+  margin: 50px 0;
 }
 
 .row-setting h2 {
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 30px;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: bold;
   text-align: justify;
 }
@@ -131,12 +130,12 @@ p {
 /* ======================== product spart start =====================*/
 .product {
   width: 100%;
-  padding: 7rem 0 5rem;
+  padding: 70px 0 50px;
 }
 .product h1 {
-  font-size: 5rem;
+  font-size: 50px;
   font-weight: bold;
-  padding-top: 1rem;
+  padding-top: 10px;
   color: var(--secondary-color);
 }
 
@@ -145,43 +144,43 @@ p {
   height: 200px;
 }
 .card {
-  margin-top: 4rem;
-  max-height: 30rem;
+  margin-top: 40px;
+  max-height: 300px;
 }
 .card-img {
-  max-width: 20rem;
-  height: 20rem;
+  max-width: 200px;
+  height: 200px;
   margin: auto;
   text-align: center;
 }
 .card-title {
-  font-size: 2rem;
+  font-size: 20px;
 }
 /* ==================== product part end=================== */
 
 /* ==================== Team part start=====================*/
 
 .ourteam {
-  padding: 5rem 0 6rem;
+  padding: 100px 0 60px;
   width: 100%;
 }
 
 .ourteam h1 {
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 50px;
   color: var(--secondary-color);
 }
 
 .teamsetting {
-  margin-top: 5rem;
+  margin-top: 50px;
 }
 
 figcaption h4 {
-  font-size: 3rem;
+  font-size: 30px;
 }
 
 .figure-caption {
-  font-size: 2rem;
+  font-size: 20px;
   text-align: center;
   font-weight: bold;
 }
@@ -195,8 +194,8 @@ figcaption h4 {
   color: wheat;
 }
 .footer h6 {
-  line-height: 5rem;
-  font-size: 2rem;
+  line-height: 50px;
+  font-size: 20px;
 }
 
 /* =================== footer part end =================*/
@@ -204,19 +203,19 @@ figcaption h4 {
 /* ================== Responsive part start =============== */
 @media screen and (max-width: 992px) {
   .header-text h2 {
-    font-size: 2rem;
+    font-size: 20px;
   }
   .header-text h1 {
-    font-size: 2rem;
+    font-size: 20px;
   }
   .ourservice h1 {
-    padding-top: 22rem;
+    padding-top: 220px;
   }
   .ourteam h1 {
-    padding-top: 18rem;
+    padding-top: 200px;
   }
   .product h1 {
-    padding-top: 18rem;
+    padding-top: 220px;
   }
 }
 
